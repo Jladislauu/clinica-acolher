@@ -24,6 +24,7 @@
         <?= lang('go_to_booking_page') ?>
     </a>
 
+
     <a href="<?= vars('add_to_google_url') ?>" id="add-to-google-calendar" class="btn btn-primary" target="_blank">
         <i class="fas fa-plus me-2"></i>
         <?= lang('add_to_google_calendar') ?>
@@ -40,4 +41,4 @@
     'matomo_analytics_site_id' => vars('matomo_analytics_site_id'),
 ]); ?>
 
-<?php end_section('scripts'); ?>
+<?php end_section('scripts'); ?> 

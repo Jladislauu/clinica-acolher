@@ -88,3 +88,17 @@
         </form>
     </div>
 </div>
+
+<!-- Spinner de carregamento -->
+<div id="loading-spinner" style="display:none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Agendando...</span>
+    </div>
+    <p>Agendando...</p>
+</div>
+
+<script>
+document.getElementById('book-appointment-submit').addEventListener('click', function() {
+    document.getElementById('loading-spinner').style.display = 'block';
+});
+</script>
